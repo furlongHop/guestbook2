@@ -4,6 +4,7 @@
 <%@ page import="com.javaex.vo.GuestbookVo" %>
 
 <%
+	//setAttribute를 이용헤 request에 받아둔 gbList를 List<GuestbookVo>로 형변환한 뒤 guestbookList에 담는다.
 	List<GuestbookVo> guestbookList = (List<GuestbookVo>)request.getAttribute("gbList");
 %>
 
